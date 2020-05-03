@@ -1,6 +1,9 @@
 svg.icon {
-    width: 40px;
+    fill: currentColor;
+    height: 1.1428rem;
+    vertical-align: text-bottom;
 }
+
 
 .info-contact-cantainer .contacts li {
     display: flex;
@@ -11,31 +14,20 @@ svg.icon {
     display: flex;
     align-items: center;
     flex-direction: column;
-    width: 70%;
-    padding-top: 50px;
+    padding-bottom: 15px;
 }
 
 .contacts-first {
     display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 100%;
-    padding-bottom: 30px;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
-.contacts-second {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 100%;
-}
 
 .info-contact-cantainer .contacts {
     display: flex;
-    width: 100%;
     align-items: center;
-    justify-content: space-around;
-    flex-direction: column;
+    flex-direction: row;
     margin: 0 auto;
 }
 
@@ -60,17 +52,66 @@ a.phone {
 }
 
 .contacts-first span {
-    font-size: 35px;
-    padding-left: 15px;
+    font-size: 13px;
+    padding-left: 7px;
 }
 
-.contacts-second span {
-    font-size: 35px;
-    padding-left: 15px;
+.contacts-first li {
+    padding: 3px;
 }
+
 
 .info-contact-cantainer a {
     text-decoration: none;
     color: black;
+    transition: 0.5s;
     font-weight: 700;
+}
+
+a.linkedin:hover {
+    color: #0077b5;
+}
+
+a.github:hover {
+    color: #313030;
+}
+
+a.facebook:hover {
+    color: #4064ad;
+}
+
+a.telegram:hover {
+    color: #30a3e6;
+}
+
+a.mail:hover {
+    color: #d64b3d !important;
+}
+
+@media only screen and (max-width: 768px) {
+    .contacts-first {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        padding-top: 20px;
+    }
+
+    .top-container {
+        border: none !important;
+    }
+
+}
+
+@media only screen and (min-width: 769px) {
+
+    p.description-skills {
+        width: 75px !important;
+        height: 75px !important;
+    }
+
+    .contacts-first {
+        justify-content: center;
+    }
+
+
 }

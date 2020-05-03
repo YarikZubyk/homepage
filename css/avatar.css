@@ -2,20 +2,32 @@
     display: flex;
     align-items: center;
     flex-direction: column;
-    width: 30%;
 }
 
 .avatar-container .image-avatar img {
-    max-width: 290px;
-    width: 100%;
-    border: 20px solid #50acb547;
+    border-radius: 50%;
+    max-width: 200px;
 }
 
 .avatar-container h1.title-text {
     text-align: center;
-    font-size: 32pt;
+    font-size: 30px;
     color: #50acb5;
     font-weight: 700;
     display: flex;
 }
 
+h2.text-proff {
+    text-align: center;
+    font-size: 14px;
+    padding-top: 15px;
+}
+
+@media only screen and (max-width: 768px) {
+    .top-container {
+        flex-direction: column !important;
+        padding: 15px 15px 15px 15px;
+    }
+
+
+}
