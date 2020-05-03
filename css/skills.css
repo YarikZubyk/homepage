@@ -1,0 +1,19 @@
+.my-skills-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+p.description-skills {
+    width: 100px;
+    height: 100px;
+    color: white;
+    background: #484342;
+    border-radius: 50%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+}
