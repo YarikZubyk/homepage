@@ -1,3 +1,8 @@
+@import "about.css";
+@import "avatar.css";
+@import "info-cantact.css";
+@import "skills.css";
+
 body {
     max-width: 1268px;
     width: 100%;
