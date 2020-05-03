@@ -2,7 +2,6 @@
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    width: 100%;
 }
 
 p.description-skills {
@@ -16,4 +15,16 @@ p.description-skills {
     align-items: center;
     justify-content: center;
     font-weight: 700;
+}
+
+.my-skills-info p {
+    margin: 5px;
+}
+
+@media only screen and (max-width: 768px) {
+    .my-skills-info {
+        flex-direction: column;
+    }
+
+
 }

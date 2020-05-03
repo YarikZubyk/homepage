@@ -7,5 +7,26 @@
 
 h2.title-about {
     font-size: 35px;
-    font-weight: 700;
+}
+
+p.description-about {
+
+    font-weight: 300;
+    font-size: 1.5rem;
+}
+
+@media only screen and (max-width: 768px) {
+    .top-container {
+        flex-direction: column !important;
+        padding: 15px 15px 15px 15px;
+    }
+
+    .about-text-info {
+        padding: 15px 15px 15px 15px;
+    }
+
+    h2.title-about {
+        font-size: 32px;
+    }
+
 }
