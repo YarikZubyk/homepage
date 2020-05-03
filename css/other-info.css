@@ -1,0 +1,20 @@
+.second-middle-conteiner {
+    padding-top: 25px;
+}
+
+.other-info-cantainer a {
+    color: black !important;
+}
+
+.other-info-cantainer a:hover span {
+    text-decoration: none !important;
+}
+
+@media only screen and (max-width: 768px) {
+    .top-container {
+        flex-direction: column !important;
+        padding: 15px 15px 15px 15px;
+    }
+
+
+}
