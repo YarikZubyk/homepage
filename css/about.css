@@ -1,0 +1,11 @@
+.about-text-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: inherit;
+    padding: 35px;
+}
+
+h2.title-about {
+    font-size: 35px;
+    font-weight: 700;
+}

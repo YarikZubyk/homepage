@@ -1,0 +1,21 @@
+.avatar-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 30%;
+}
+
+.avatar-container .image-avatar img {
+    max-width: 290px;
+    width: 100%;
+    border: 20px solid #50acb547;
+}
+
+.avatar-container h1.title-text {
+    text-align: center;
+    font-size: 32pt;
+    color: #50acb5;
+    font-weight: 700;
+    display: flex;
+}
+
