@@ -89,9 +89,12 @@ a.mail:hover {
 }
 
 @media only screen and (max-width: 768px) {
-    .contacts-first {
+
+
+    .info-contact-cantainer .contacts-first .contacts{
         display: flex;
         flex-direction: column;
+        align-items: flex-start;
         flex-wrap: wrap;
         padding-top: 20px;
     }
@@ -112,6 +115,7 @@ a.mail:hover {
     .contacts-first {
         justify-content: center;
     }
+
 
 
 }
