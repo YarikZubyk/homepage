@@ -1,0 +1,121 @@
+svg.icon {
+    fill: currentColor;
+    height: 1.1428rem;
+    vertical-align: text-bottom;
+}
+
+
+.info-contact-cantainer .contacts li {
+    display: flex;
+    align-items: center;
+}
+
+.info-contact-cantainer {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 15px;
+}
+
+.contacts-first {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+
+.info-contact-cantainer .contacts {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin: 0 auto;
+}
+
+a.facebook {
+    display: flex;
+    align-items: center;
+}
+
+a.mail {
+    display: flex;
+    align-items: center;
+}
+
+a.github {
+    display: flex;
+    align-items: center;
+}
+
+a.phone {
+    display: flex;
+    align-items: center;
+}
+
+.contacts-first span {
+    font-size: 13px;
+    padding-left: 7px;
+}
+
+.contacts-first li {
+    padding: 3px;
+}
+
+
+.info-contact-cantainer a {
+    text-decoration: none;
+    color: black;
+    transition: 0.5s;
+    font-weight: 700;
+}
+
+a.linkedin:hover {
+    color: #0077b5;
+}
+
+a.github:hover {
+    color: #313030;
+}
+
+a.facebook:hover {
+    color: #4064ad;
+}
+
+a.telegram:hover {
+    color: #30a3e6;
+}
+
+a.mail:hover {
+    color: #d64b3d !important;
+}
+
+@media only screen and (max-width: 768px) {
+
+
+    .info-contact-cantainer .contacts-first .contacts{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        padding-top: 20px;
+    }
+
+    .top-container {
+        border: none !important;
+    }
+
+}
+
+@media only screen and (min-width: 769px) {
+
+    p.description-skills {
+        width: 75px !important;
+        height: 75px !important;
+    }
+
+    .contacts-first {
+        justify-content: center;
+    }
+
+
+
+}

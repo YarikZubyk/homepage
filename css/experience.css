@@ -1,0 +1,62 @@
+.first-experience-info h4 {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.experience-at-the-moment {
+    display: flex;
+    padding: 10px;
+    flex-direction: column;
+    background: gainsboro;
+    border-radius: 7px;
+    width: 75%;
+}
+
+.experience-at-the-moment p {
+    margin: 0;
+}
+
+h2.experience-text {
+    padding-top: 25px;
+}
+
+.timeline h6 {
+    padding-top: 10px;
+}
+
+.middle-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.first-middle-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+@media only screen and (max-width: 768px) {
+    .middle-container {
+        flex-direction: column;
+        padding: 15px 15px 15px 15px;
+    }
+
+    .middle-container h2 {
+        padding-top: 15px;
+        font-size: 28px;
+    }
+
+    .experience-at-the-moment {
+        width: auto;
+    }
+
+}
+
+@media only screen and (min-width: 769px) {
+
+    .first-middle-container {
+        width: 150%;
+    }
+
+}
+
